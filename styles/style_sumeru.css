@@ -71,9 +71,9 @@ button {
     border-radius: .5rem;
 }
 
-.delete, .space{
-    font-size: 1rem;
-    text-transform: capitalize;
+.delete, .space, .clean{
+  font-size: 1.5rem;
+  text-transform: capitalize;
 }
 .delete { width: 500px; }
 .clean { width: 100px; }
