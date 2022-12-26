@@ -2,6 +2,11 @@
     font-family: face;
     src: url("../sources/genshin.ttf");
   }
+
+@font-face {
+  font-family: 'inazuma';
+  src: url('../sources/InazumaNeue-Regular-0.006.otf');
+}
   
 * {
       margin: 0;
@@ -69,6 +74,11 @@ button {
     height: 80px;
     border: 2px solid #000;
     border-radius: .5rem;
+}
+
+button#letters {
+  font-size: 42px;
+  font-family: 'inazuma';
 }
 
 .delete, .space, .clean{

@@ -4,8 +4,8 @@
   }
 
 @font-face {
-  font-family: 'mondstadt';
-  src: url('../sources/TeyvatNeue-Regular-1.002.otf');
+  font-family: abyss;
+  src: url("../sources/KhaenriahNeue-Regular-2.000.otf");
 }
   
 * {
@@ -21,7 +21,7 @@ body {
     place-items: center;
     min-height: 100vh;
     background: rgb(2,0,36);
-    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(167,245,205,1) 100%);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgb(255, 255, 255) 100%);
 }
 
 ul {
@@ -77,8 +77,8 @@ button {
 }
 
 button#letters {
-  font-size: 42px;
-  font-family: 'mondstadt';
+    font-size: 42px;
+    font-family: 'abyss';
 }
 
 .delete, .space, .clean{

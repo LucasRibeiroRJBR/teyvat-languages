@@ -2,6 +2,11 @@
     font-family: face;
     src: url("../sources/genshin.ttf");
   }
+
+@font-face {
+  font-family: 'sumeru';
+  src: url('../sources/SumeruNeue-Regular-0.007.otf');
+}
   
 * {
       margin: 0;
@@ -69,6 +74,11 @@ button {
     height: 80px;
     border: 2px solid #000;
     border-radius: .5rem;
+}
+
+button#letters {
+  font-size: 42px;
+  font-family: 'sumeru';
 }
 
 .delete, .space, .clean{
